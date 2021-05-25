@@ -1,0 +1,138 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="style.css" >
+
+  </head>
+  <body>
+    <div class="Container">
+    <h1>Order your Meal</h1>
+    <table>
+      <th>
+        Dishes
+      </th>
+      <th>
+        Price
+      </th>
+    <th>Quantity</th>
+      <tr>
+        <td><button type="button">Coffee</button></td>
+        <td>
+          100Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "coffee">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Tea</button></td>
+        <td>
+          90Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "tea">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Salad</button></td>
+        <td>
+          150Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "salad">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Milk</button></td>
+        <td>
+          80Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "milk">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Omelet</button></td>
+        <td>
+          120Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "omelet">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Bread Butter</button></td>
+        <td>
+          130Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "bread">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Tomato Soup</button></td>
+        <td>
+          120s
+        </td>
+        <td>
+          <input type="number" name="screen" id = "soup">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Rice</button></button></td>
+        <td>
+          150Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "rice">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Brownie</button></td>
+        <td>
+          160 Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "brownie">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Apple Pie</button></td>
+        <td>
+          180Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "pie">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Donuts</button></td>
+        <td>
+          120Rs
+        </td>
+        <td>
+          <input type="number" name="screen" id = "donuts">
+        </td>
+      </tr>
+      <tr>
+        <td><button type="button">Place your Order</button></td>
+        <td>
+          <button type="button">Cancel</button>
+        </td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td>
+          <input type="number" name="screen" id = "screen">
+        </td>
+
+      </tr>
+</table>
+
+</div>
+
+  <script src = "main.js"></script>
+  </body>
+</html>
